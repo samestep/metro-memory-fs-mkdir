@@ -2,8 +2,15 @@
   "name": "metro-memory-fs-mkdir",
   "version": "1.0.0",
   "description": "As of version 0.53.1, metro-memory-fs does not define mkdir.",
-  "main": "index.js",
   "repository": "https://github.com/samestep/metro-memory-fs-mkdir.git",
   "author": "Sam Estep <sam@samestep.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^24.5.0",
+    "metro-memory-fs": "^0.53.1",
+    "mkdirp": "^0.5.1"
+  },
+  "scripts": {
+    "test": "jest"
+  }
 }
